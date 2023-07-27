@@ -1,0 +1,99 @@
+body {
+    background-image: url(../media/Jai_Shree_Ram.jpg);
+    background-size: cover  ;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+}
+
+.lyrics{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.hindi {
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    text-shadow: 2px 2px 10px ;
+}
+
+.english {
+    font-family: cursive;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-shadow: 2px 2px 10px ;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 10px ;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 10px;
+    color: #ffffff;
+    font-family: cursive;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+.A-H-C{
+    color: white;
+    text-align: center;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    font-size: larger;
+}
+
+.a_v_box{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+hr{
+    width: 900px;
+    height: 20px;
+    border: 1px solid white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px; */
+    background-color: white;
+}
+audio{
+    background-color: rgb(255, 77, 0);
+    border: 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.icons{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.icons div{
+    background-color: white;
+    height: 20px;
+    width: 30px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    /* justify-content: end; */
+}
+.icons div:hover{
+    background-color: aqua;
+    box-shadow: 2px 5px 5px white;
+}
